@@ -1,13 +1,14 @@
 {
-  "name":"Node-CacheApp",
+  "name":"JsBank",
   "version": "0.0.1",
-  "description": "A sample nodejs app using Elastic Caching Service for Bluemix",
+  "description": "A sample nodejs app using Redis Caching Service for Bluemix",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
     "express": "3.2.6 ",
     "ejs": "*",
+    "redis": "*",
     "querystring": "0.2.0"
   },
   "engines": {
